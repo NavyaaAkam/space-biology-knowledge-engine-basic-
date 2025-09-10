@@ -1,0 +1,77 @@
+<div class="container">
+
+  <!-- Header -->
+  <header>
+    <h1>🚀 Space Biology Knowledge Engine</h1>
+    <div class="search-container">
+      <input type="text" placeholder="Ask Copilot about experiments, organisms..." />
+      <button id="askBtn">Ask Copilot</button>
+    </div>
+  </header>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stat-card">🧪 Total Experiments: 12</div>
+    <div class="stat-card">🌌 Categories: 5</div>
+    <div class="stat-card">👩‍🔬 Scientists: 18</div>
+  </section>
+
+  <!-- Experiment Cards -->
+  <section class="cards">
+    <h2>Experiment Resources</h2>
+    <div class="card">Microgravity on Plant Growth</div>
+    <div class="card">Radiation Effects on Bacteria</div>
+    <div class="card">Sleep Patterns in Space</div>
+    <div class="card">Cell Culture in Microgravity</div>
+    <div class="card">DNA Damage by Cosmic Rays</div>
+  </section>
+
+  <!-- Visualization & Knowledge Graph Side by Side -->
+  <section class="visual-graph-container">
+    <div class="visualizations">
+      <h2>Data Visualizations</h2>
+      <canvas id="barChart" width="400" height="200"></canvas>
+      <canvas id="pieChart" width="400" height="200"></canvas>
+      <canvas id="lineChart" width="400" height="200"></canvas>
+    </div>
+
+    <div class="knowledge-graph">
+      <h2>Knowledge Graph</h2>
+      <div id="network"></div>
+    </div>
+  </section>
+
+  <!-- Story Mode / Educational Mode -->
+  <section class="story-mode">
+    <h2>Story Mode</h2>
+    <p>Step-by-step walkthrough of space biology concepts... (placeholder)</p>
+  </section>
+
+  <!-- Workspace & Collaboration -->
+  <section class="workspace">
+    <h2>Workspace & Collaboration</h2>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="shared">Shared Workspace</button>
+      <button class="tab-btn" data-tab="custom">Custom Workspace</button>
+      <button class="tab-btn" data-tab="annotations">Annotations</button>
+    </div>
+    <div class="tab-content" id="shared">Shared workspace placeholder</div>
+    <div class="tab-content" id="custom" style="display:none;">Custom workspace placeholder</div>
+    <div class="tab-content" id="annotations" style="display:none;">Annotations placeholder</div>
+  </section>
+
+  <!-- Report Generation -->
+  <section class="reports">
+    <h2>Reports</h2>
+    <button id="generateReport">Generate Report (Placeholder)</button>
+  </section>
+
+  <!-- Community Board -->
+  <section class="community">
+    <h2>Community Board</h2>
+    <p>Post 1: Placeholder discussion</p>
+    <p>Post 2: Placeholder discussion</p>
+    <p>Post 3: Placeholder discussion</p>
+  </section>
+
+</div>
